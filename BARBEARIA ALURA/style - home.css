@@ -1,0 +1,67 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#banner{
+    width: 100%;
+}
+
+.principal{
+    background-color: gray;
+    padding: 30px
+}
+
+.titulo-principal{
+padding-left: 20px;
+}
+
+.titulo-centralizado{
+    text-align: center
+}
+
+p{
+    text-align: center
+}
+
+#mandioca{
+    font-size: 20px
+}
+
+em strong{
+    color: rgb(0, 0, 255);
+}
+
+.itens{
+    line-height: 1.5em;
+}
+
+.itens:before {
+	content: "☛";
+}
+
+.itens:first-child {
+	font-weight: bold;
+}
+
+.beneficios ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.beneficios{
+    background: #ffffff;
+    padding: 20px
+}
+
+.imgbene {
+	width: 60%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 20px 20px 20px #000000
+}
+
+.imgbene:hover {
+	opacity: 0.3;
+}
